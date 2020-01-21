@@ -9,22 +9,33 @@
 <style>
 body {font-family: Helvetica, Arial, sans-serif}
 .mySlides {display: none}
+<!--end of style-->
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
 </style>
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card"><a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">JL ARTWORK&nbsp;</a> 
-    <div class="w3-dropdown-hover w3-hide-small">    
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="Contact.html" class="w3-bar-item w3-button">Contact</a>
-        <a href="#" class="w3-bar-item w3-button">Merch</a>
-        <a href="#" class="w3-bar-item w3-button">Music</a>
-      </div>
-    </div>
-    
-  </div>
-</div>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
